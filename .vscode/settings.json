@@ -1,0 +1,11 @@
+{
+    "python.sortImports.args": [
+        "--settings-path=${workspaceFolder}/setup.cfg"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.formatting.provider": "black",
+    "python.testing.pytestEnabled": true,
+    "python.envFile": "${workspaceFolder}/.env",
+}
