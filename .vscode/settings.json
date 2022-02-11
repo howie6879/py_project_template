@@ -2,10 +2,14 @@
     "python.sortImports.args": [
         "--settings-path=${workspaceFolder}/setup.cfg"
     ],
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.pylintrc"
+    ],
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
     "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
     "python.testing.pytestEnabled": true,
-    "python.envFile": "${workspaceFolder}/.env",
+    "python.envFile": "${workspaceFolder}/.env"
 }
