@@ -15,14 +15,14 @@ Execute the following command in the terminal to get started quickly:
 # Assuming you are already using conda to manage your python environment
 conda create -n python38 python=3.8
 # Clone repository
-git clone https://github.com/howie6879/py_project_template
-
-# Install python env for this project
-cd py_project_template
-pipenv install --python ~/anaconda3/envs/python38/bin/python3.8 --skip-lock --dev
+git clone https://github.com/howie6879/py_project_template your_project_name
+cd your_project_name
 # Remove .git
 rm -Rf .git
-# Start write your code
+
+# Install python env for your project
+pipenv install --python ~/anaconda3/envs/python38/bin/python3.8 --skip-lock --dev
+# Start coding
 ```
 
 BTW, For my insights on python project development management you can read this article: [浅谈Python项目开发&管理](https://www.howie6879.cn/post/2021/14_about_python_env/).
