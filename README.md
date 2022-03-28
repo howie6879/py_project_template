@@ -1,6 +1,6 @@
 # Python Project Template
 
-The purpose of this project is to maintain my personal **`Python` project templates** that I commonly use, it's recommended that you use [vscode](https://code.visualstudio.com/) to develop your projects.
+The purpose of this project is to maintain my personal **`Python project templates`** that I commonly use.
 
 The main functions are as follows:
 
@@ -8,6 +8,8 @@ The main functions are as follows:
 - Python code formatter [black](https://github.com/psf/black)
 - Sort your python project imports by [isort](https://github.com/PyCQA/isort)
 - Static code analysis by [pylint](https://github.com/PyCQA/pylint)
+
+> It's recommended that you use [vscode](https://code.visualstudio.com/) to develop your projects.
 
 Execute the following command in the terminal to get started quickly:
 
