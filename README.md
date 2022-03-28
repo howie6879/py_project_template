@@ -2,7 +2,7 @@
 
 The purpose of this project is to maintain my personal **`Python project templates`** that I commonly use.
 
-The main functions are as follows:
+Main functions are as follows:
 
 - Automatically creates and manages a virtualenv for your projects by [pipenv](https://github.com/pypa/pipenv)
 - Python code formatter [black](https://github.com/psf/black)
