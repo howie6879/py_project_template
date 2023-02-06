@@ -15,7 +15,7 @@ Execute the following command in the terminal to get started quickly:
 
 ```shell
 # Assuming you are already using conda to manage your python environment
-conda create -n python38 python=3.8
+conda create -n python3.10 python=3.10
 # Clone repository
 git clone https://github.com/howie6879/py_project_template your_project_name
 cd your_project_name
@@ -23,7 +23,7 @@ cd your_project_name
 rm -Rf .git
 
 # Install python env for your project
-pipenv install --python ~/anaconda3/envs/python38/bin/python3.8 --skip-lock --dev
+pipenv install --python ~/anaconda3/envs/python38/bin/python3.10 --skip-lock --dev
 # Start coding
 ```
 
