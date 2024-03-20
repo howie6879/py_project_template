@@ -27,4 +27,4 @@ pipenv install --python ~/anaconda3/envs/python38/bin/python3.10 --skip-lock --d
 # Start coding
 ```
 
-BTW, For my insights on python project development management you can read this article: [浅谈Python项目开发&管理](https://www.howie6879.cn/post/2021/14_about_python_env/).
+BTW, For my insights on python project development management you can read this article: [浅谈Python项目开发&管理](https://www.howie6879.com/post/2021/14_about_python_env/).
