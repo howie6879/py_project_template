@@ -1,6 +1,4 @@
-FROM python:3.8.12
-RUN sed -i 's#http://deb.debian.org#https://mirrors.163.com#g' /etc/apt/sources.list
-RUN apt update -y && apt-get install -y net-tools
+FROM howie6879/python:3.11-slim 
 ENV APP_ROOT=/data/code \
     TIME_ZONE=Asia/Shanghai
 WORKDIR ${APP_ROOT}/
