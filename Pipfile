@@ -10,6 +10,7 @@ black = "*"
 pylint = "*"
 isort = "*"
 pytest = "*"
+autoflake = "*"
 
 [scripts]
 
